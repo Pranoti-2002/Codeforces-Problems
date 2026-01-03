@@ -11,3 +11,11 @@ run.exe
 
 # Ignore OS files
 Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Compiled files
+*.exe
+*.out
+run
