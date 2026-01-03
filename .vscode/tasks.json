@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run C++ with input.txt (PowerShell)",
+      "type": "shell",
+      "command": "g++ \"${file}\" -o \"${fileDirname}/run.exe\"; Get-Content \"${fileDirname}/input.txt\" | \"${fileDirname}/run.exe\"",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}

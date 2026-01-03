@@ -1,0 +1,13 @@
+# Ignore compiled executables
+*.exe
+
+# Ignore temporary build files
+*.out
+*.o
+
+# Ignore VS Code build output if any
+run
+run.exe
+
+# Ignore OS files
+Thumbs.db
