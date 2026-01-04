@@ -1,2 +1,2 @@
-1010100
-0100101
+35
+TheQuickBrownFoxJumpsOverTheLazyDog
